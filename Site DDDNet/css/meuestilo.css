@@ -1,0 +1,293 @@
+
+body {  	
+	margin: 0 auto;  	
+	padding: 0;  	
+	background: white;
+	overflow-x: hidden;
+	max-width: 1600px;
+	width: 100%;
+}	
+#corpo{
+	margin: 0 auto;
+	width: 100%;		
+}
+#header {	
+    float: left;	
+	background-image: url(../imagens/cabecalho.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 581px;	
+	width: 100%;
+	position:relative;	
+}
+#menu{
+	float: left;
+	width: 705px;
+	height: 20px;
+    font-family: arial;	
+	font-size: 16px;
+	position:absolute;
+    top:13%;
+   	left:40%;	
+}
+#logo{
+	float: left;
+	width: 134px;
+	height: 137px;	
+	background-repeat: no-repeat;	
+	background-size: 134px 137px;
+	position:absolute;
+    top:10%;
+   	left:15%;	
+}
+#textologo{
+	float: left;
+	width: 300px;
+	height: 137px;	
+	background-repeat: no-repeat;	
+	background-size: 134px 137px;
+	position:absolute;
+    top:50%;
+   	left:10%;	
+	font-family: arial;		
+	font-size: 26px;
+   	color:white;	
+}
+#header2 {	
+    float: left;		
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #f8f8f8;	
+	position:relative;	
+	height: 581px;	
+	width: 100%;	
+}
+#planos {
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4B7343;
+	padding-left: 140px;
+	padding-top: 70px;	
+}
+#planosdesenhado{
+    float: left;
+	background-image: url(../imagens/PlanosDesenhado.png);	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 550px;	
+	width: 100%;
+	position:absolute;
+    top:8%;	
+}
+#header3 {	
+    float: left;	
+	background-image: url(../imagens/fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	height: 600px;	
+	width: 100%;	
+	position:relative;
+}
+#servicos {
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding-left: 140px;
+	padding-top: 70px;
+}
+#imgservicos{
+	float:left;
+	height: 200px;	
+	position:absolute;
+        top:28%;
+   	left:13%;	
+}
+#header4 {	
+    float: left;	
+	background-image: url(../imagens/fundoverde.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 581px;	
+	height: 581px;	
+	width: 100%;	
+	position:relative;
+}
+#fale {
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding-left: 140px;
+	padding-top: 70px;
+}
+#telefone {
+	float: left;
+	font-family: arial;
+	font-size: 14px;	
+	color: white;
+	position:absolute;
+    top:30%;
+   	left:14%;
+}
+#traco {
+	float: left;
+	font-family: arial;
+	font-size: 50px;	
+	color: white;
+	position:absolute;
+    top:45%;
+   	left:14%;	
+}
+#endereco {
+	float: left;
+	font-family: arial;
+	font-size: 14px;	
+	color: white;
+	position:absolute;
+    top:65%;
+   	left:14%;	
+}
+#dadoscontato {
+	float: left;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+    top:25%;
+   	left:45%;
+	width:450px;	
+}   
+.input-group {
+  position: relative;
+  margin: 40px auto;
+}
+.form-control {
+  position: relative;
+  z-index: 1; 
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: transparent;
+}
+.form-control + label {
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  font-size: 16px;
+  color: white;
+  transition: all .2s ease-out;
+}
+.form-control:focus {
+  outline: none;
+  border-width: 2px;
+  border-color: white;
+  transition: all .2s ease-out;
+}
+.form-control:focus + label, .form-control.has-value + label {
+  top: -15px;
+  color: white;
+  font-size: 12px;
+}
+.form-control.has-value:not(:focus) + label {
+  color: #999999;
+}
+button {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  height: 36px;
+  padding: 0 16px;  
+}
+textarea.form-control {
+  height: 120px;
+}
+
+#b1{	
+	float: left;
+	width: 49%;
+	
+}
+#b2{
+    float: left;
+	width: 48%;	
+	padding-left: 10px;
+}
+#b3{
+    float: left;
+	width: 100%;
+	position:absolute;
+    top:45%;
+   	left:0%;	
+}
+#b4{
+    float: left;
+	width: 100%;
+	position:absolute;
+    top:90%;
+   	left:0%;	
+}
+#b5{
+    float: left;
+	width: 100%;
+	position:absolute;
+    top:240%;
+   	left:38%;	
+}
+
+#header5 {	
+    float: left;	
+	background-image: url(../imagens/rodape.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 581px;	
+	height: 581px;	
+	width: 100%;	
+	position:relative;
+}
+#mapa{
+	width: 100%;
+	position:absolute;
+    top:5%;
+   	left:2%;
+}
+#desenvolvedores{
+	position:absolute;
+    top:94%;
+	left: 2%;
+	font-family: arial;
+	font-size: 12px;	
+	color: white;
+}
+#copyr{
+	position:absolute;
+    top:95%;
+	left: 88%;
+	font-family: arial;
+	font-size: 12px;	
+	color: white;
+}
+a:link {
+color:white;
+text-decoration:none;
+}
+a:visited {
+color:white;
+text-decoration:none;
+}
+a:hover {
+color:#000000;
+text-decoration:none;
+}
+a:active {
+color:red;
+text-decoration:none;
+}
